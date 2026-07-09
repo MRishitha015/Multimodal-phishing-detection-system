@@ -35,7 +35,7 @@ Unlike conventional systems, PhishGuard not only detects phishing attempts but a
 
 # ✨ Key Features
 
-## 🌐 URL Phishing Detection
+## URL Phishing Detection
 
 - Detects malicious URLs using **XGBoost**
 - URL feature engineering
@@ -46,7 +46,7 @@ Unlike conventional systems, PhishGuard not only detects phishing attempts but a
 
 ---
 
-## 📧 Email Phishing Detection
+## Email Phishing Detection
 
 - Transformer-based phishing email classifier
 - Fine-tuned **RoBERTa**
@@ -55,7 +55,7 @@ Unlike conventional systems, PhishGuard not only detects phishing attempts but a
 
 ---
 
-## 🖼️ Screenshot Analysis
+## Screenshot Analysis
 
 - Website screenshot inspection
 - Visual phishing detection
@@ -64,7 +64,7 @@ Unlike conventional systems, PhishGuard not only detects phishing attempts but a
 
 ---
 
-## 🤖 Explainable AI
+## Explainable AI
 
 Traditional phishing detectors simply return:
 
@@ -83,7 +83,7 @@ making predictions understandable for end users.
 
 ---
 
-## 🔍 Safe URL Preview
+## Safe URL Preview
 
 Users can safely preview webpages without opening potentially harmful websites.
 
@@ -91,7 +91,7 @@ This minimizes accidental interaction with malicious content.
 
 ---
 
-## 📱 QR Code Detection
+## QR Code Detection
 
 Many phishing attacks now use QR codes.
 
@@ -105,7 +105,7 @@ without requiring manual inspection.
 
 ---
 
-# 🏗️ System Architecture
+# System Architecture
 
 ```
                     User Input
@@ -137,7 +137,7 @@ without requiring manual inspection.
 
 ---
 
-# 🛠️ Technology Stack
+# Technology Stack
 
 | Category | Technologies |
 |-----------|--------------|
@@ -152,32 +152,9 @@ without requiring manual inspection.
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```
-PhishGuard
-│
-├── analysis/
-│   ├── url_detector.py
-│   ├── email_detector.py
-│   ├── llava_explainer.py
-│   └── qr_detector.py
-│
-├── models/
-│   ├── xgboost_model.pkl
-│   ├── roberta_model/
-│   └── llava/
-│
-├── templates/
-├── static/
-├── utils/
-│
-├── app.py
-├── main.py
-├── requirements.txt
-└── README.md
-```
-
 ---
 
 # 📊 Datasets
@@ -299,42 +276,6 @@ http://127.0.0.1:8000
 - Redirect Chain Analysis
 - Enhanced Visual Reasoning
 - Real-time Website Monitoring
-
----
-
-# 📸 Screenshots
-
-> Add screenshots here
-
-### Dashboard
-
-```
-images/dashboard.png
-```
-
----
-
-### URL Analysis
-
-```
-images/url-analysis.png
-```
-
----
-
-### Email Detection
-
-```
-images/email.png
-```
-
----
-
-### LLaVA Explanation
-
-```
-images/llava.png
-```
 
 ---
 
